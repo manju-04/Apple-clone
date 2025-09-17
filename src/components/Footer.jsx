@@ -1,7 +1,6 @@
-function Footer()
-{
-    return(
- <div>
+function Footer() {
+    return (
+        <div>
             <div className="mt-5 p-5 ">
                 <p className="p-2">No Cost EMI is available with the purchase of an eligible product made using qualifying cards on 3- or 6-month tenures from most leading card issuers. Monthly pricing is rounded to the nearest rupee. Exact pricing will be provided by your card issuer, subject to your card issuer’s terms and conditions. Minimum order spend applies as per your card issuer’s threshold. No Cost EMI is not available to business customers and cannot be combined with Apple Store for Education or Corporate Employee Purchase Plan pricing. Card eligibility is subject to terms and conditions between you and your card issuer. Offer may be revised or withdrawn at any time without any prior notice. <u>Terms apply.</u></p>
                 <p className="p-2">Instant cashback is available with the purchase of an eligible product with qualifying American Express, Axis Bank and ICICI Bank cards only. Minimum transaction value of ₹10001.00 applies. Click here to see instant cashback amounts and eligible devices. Instant cashback is available for up to two orders per rolling 90-day period with an eligible card. Card eligibility is subject to terms and conditions between you and your card issuer. Total transaction value is calculated after any trade-in credit or eligible discount is applied. Any subsequent order adjustment(s) or cancellation(s) may result in instant cashback being recalculated, and any refund may be adjusted to account for instant cashback clawback; this may result in no refund being made to you. Offer may be revised or withdrawn at any time without any prior notice. Additional terms apply. Instant cashback is not available to business customers and cannot be combined with Apple Store for Education or Corporate Employee Purchase Plan pricing. Multiple separate orders cannot be combined for instant cashback.</p>
@@ -48,52 +47,52 @@ function Footer()
                         <li className=" text-gray-400 hover:underline">Apple Store</li>
                     </ul>
                 </div>
-            
-            <div>
-                <h3 className="font-semibold">Apple Store</h3>
-                <ul>
-                    <li className=" text-gray-400 hover:underline">Find a Store</li>
-                    <li className=" text-gray-400 hover:underline">Genius Bar</li>
-                    <li className=" text-gray-400 hover:underline">Today at Apple</li>
-                    <li className=" text-gray-400 hover:underline">Group Reservation</li>
-                    <li className=" text-gray-400 hover:underline">Apple Camp</li>
-                    <li className=" text-gray-400 hover:underline">Apple Trade In </li>
-                    <li className=" text-gray-400 hover:underline">Ways to Buy</li>
-                    <li className=" text-gray-400 hover:underline">Recycling Programme</li>
-                    <li className=" text-gray-400 hover:underline">Order Status</li>
-                    <li className=" text-gray-400 hover:underline">Shopping Help</li>
-                </ul>
+
+                <div>
+                    <h3 className="font-semibold">Apple Store</h3>
+                    <ul>
+                        <li className=" text-gray-400 hover:underline">Find a Store</li>
+                        <li className=" text-gray-400 hover:underline">Genius Bar</li>
+                        <li className=" text-gray-400 hover:underline">Today at Apple</li>
+                        <li className=" text-gray-400 hover:underline">Group Reservation</li>
+                        <li className=" text-gray-400 hover:underline">Apple Camp</li>
+                        <li className=" text-gray-400 hover:underline">Apple Trade In </li>
+                        <li className=" text-gray-400 hover:underline">Ways to Buy</li>
+                        <li className=" text-gray-400 hover:underline">Recycling Programme</li>
+                        <li className=" text-gray-400 hover:underline">Order Status</li>
+                        <li className=" text-gray-400 hover:underline">Shopping Help</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 className="font-semibold">ForBusiness</h3>
+                    <ul>
+                        <li className=" text-gray-400 hover:underline">Apple and Business</li>
+                        <li className=" text-gray-400 hover:underline">Shop for Business</li>
+                    </ul>
+                    <h3 className="font-semibold">For Education</h3>
+                    <ul>
+                        <li className=" text-gray-400 hover:underline">Apple and Education</li>
+                        <li className=" text-gray-400 hover:underline">Shop for Education</li>
+                        <li className=" text-gray-400 hover:underline">Shop for University</li>
+                    </ul>
+                    <h3 className="font-semibold">For Healthcare</h3>
+                    <ul>
+                        <li className=" text-gray-400 hover:underline">Apple and Healthcare</li>
+                    </ul>
+                    <h3 className="font-semibold">For Government</h3>
+                    <ul>
+                        <li className=" text-gray-400 ">Apple and Government</li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <h3 className="font-semibold">ForBusiness</h3>
-                <ul>
-                    <li className=" text-gray-400 hover:underline">Apple and Business</li>
-                    <li className=" text-gray-400 hover:underline">Shop for Business</li>
-                </ul>
-                <h3 className="font-semibold">For Education</h3>
-                <ul>
-                    <li className=" text-gray-400 hover:underline">Apple and Education</li>
-                    <li className=" text-gray-400 hover:underline">Shop for Education</li>
-                    <li className=" text-gray-400 hover:underline">Shop for University</li>
-                </ul>
-                <h3 className="font-semibold">For Healthcare</h3>
-                <ul>
-                    <li className=" text-gray-400 hover:underline">Apple and Healthcare</li>
-                </ul>
-                <h3 className="font-semibold">For Government</h3>
-                <ul>
-                    <li className=" text-gray-400 ">Apple and Government</li>
-                </ul>
+            <div className="mt-7 text-sm text-gray-600 p-5">
+                <p>More Ways to Shop: <u className="text-blue-600"> Fina an Apple Store</u> or <u className="text-blue-600">Other retailer</u>near you. or Call <u className="text-blue-600">000800 040 1966</u></p>
+            </div>
+            <div className="border-solid border-gray-600 border-2 text-sm text-gray-600">
+                <p className="mt-1 p-5">Copyright © 2025 Apple Inc. All rights reserved.Privacy Policy Terms of Use Sales Policy Legal Site Map</p>
             </div>
         </div>
-        <div className="mt-7 text-sm text-gray-600 p-5">
-            <p>More Ways to Shop: <u className="text-blue-600"> Fina an Apple Store</u> or <u className="text-blue-600">Other retailer</u>near you. or Call <u className="text-blue-600">000800 040 1966</u></p>
-        </div>
-        <div className="border-solid border-gray-600 border-2 text-sm text-gray-600">
-        <p className="mt-1 p-5">Copyright © 2025 Apple Inc. All rights reserved.Privacy Policy Terms of Use Sales Policy Legal Site Map</p>
-        </div>
-        </div>
-  )
+    )
 }
 
 
